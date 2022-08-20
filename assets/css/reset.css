@@ -27,6 +27,10 @@ ol[role='list'] {
 }
 
 /* Set core root defaults */
+html {
+  min-height: 100vh;
+}
+
 html:focus-within {
   scroll-behavior: smooth;
 }
