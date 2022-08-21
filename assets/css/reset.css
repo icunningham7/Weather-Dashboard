@@ -29,6 +29,7 @@ ol[role='list'] {
 /* Set core root defaults */
 html {
   min-height: 100vh;
+  font-size: 16px;
 }
 
 html:focus-within {

@@ -218,7 +218,7 @@ function displaySearchHistory() {
 
     for (let i = 0; i < searchHistory.length; i++) {
         let searchBtn = document.createElement('button');
-        searchBtn.classList.add('min-w-max', 'md:w-[80%]', 'md:snap-center', 'md:scroll-mx-2', 'mx-2', 'md:mx-auto', 'my-2', 'py-0', 'md:py-0.5', 'px-4', 'md:px-1','rounded', 'text-sm', 'md:text-base', 'bg-neutral-500', 'text-neutral-50')
+        searchBtn.classList.add('min-w-max', 'md:w-[80%]', 'md:snap-center', 'md:scroll-mx-2', 'mx-2', 'md:mx-auto', 'my-2', 'py-1', 'md:py-1.5', 'px-4', 'md:px-1','rounded', 'text-sm', 'md:text-base', 'bg-neutral-500', 'text-neutral-50')
         searchBtn.textContent = searchHistory[i];
 
         searchBtn.addEventListener('click', (event) => {
