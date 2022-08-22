@@ -1,5 +1,5 @@
 // Config Variables
-var weatherKey = config.OPEN_WEATHER_API_KEY;
+var weatherKey = 'ae80b32beb01c3f32565f0f4eef9a9af';
 
 
 // Dom Variables
