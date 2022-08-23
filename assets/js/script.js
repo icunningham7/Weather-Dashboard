@@ -41,7 +41,7 @@ function removeChildren(parentEl) {
 
 // --- Open Weather API Calls: Start --- //
 function fetchCityLocation(city) {
-    let geoAPI = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${weatherKey}`;
+    let geoAPI = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${weatherKey}`;
 
     if (city.length > 0) {
         fetch(geoAPI)
